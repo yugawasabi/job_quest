@@ -1,0 +1,74 @@
+.header {
+    width: auto;
+    height: 70px;
+    background-color: #EB333D;
+    position: relative;
+}
+
+.header-logo img{
+    float: left;
+    width: auto;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.header-sub {
+    width: auto;
+    height: 110px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.header-company img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: auto;
+    height: 60px;
+}
+
+.main {
+    background-color: #EBECEE;
+    height: 800px;
+    position: relative;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+
+}
+
+li {
+     padding-top: 110px;
+    text-align: center;
+ }
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    font-family: Hiragino Sans;
+    letter-spacing: 10px;
+    color: #000000;
+}
+
+a.btn-radius-solid {
+    border: 1px solid #ccc;
+    background: #FFFFFF;
+    -webkit-box-shadow: inset 1px 1px 1px #fff;
+    box-shadow: inset 1px 1px 1px #fff;
+    font-size: 60px;
+    width: 920px;
+    height: 120px;
+}
+
+a.btn-radius-solid:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#fdfbfb), to(#ebedee));
+    background: -webkit-linear-gradient(top, #fdfbfb 0%, #ebedee 100%);
+    background: linear-gradient(to bottom, #fdfbfb 0%, #ebedee 100%);
+    width: 920px;
+    height: 120px;
+}
